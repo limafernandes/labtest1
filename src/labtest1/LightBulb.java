@@ -5,9 +5,9 @@ public class LightBulb {
 	
 private int  wattage;
 
-public LightBulb(int watt)
+public LightBulb(int wat)
 {
-	this.wattage=watt;
+	this.wattage=wat;
 }
 
 	public int getBulbWattage()

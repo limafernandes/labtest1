@@ -12,7 +12,7 @@ public class LightBulbTest {
 	@Before
 	public void setUp() throws Exception {
 		
-		bulb = new LightBulb(400);
+		bulb = new LightBulb(1000);
 	}
 
 	 
@@ -20,7 +20,7 @@ public class LightBulbTest {
 	@Test
 	public void testGetBulbWattage() {
 		
-		assertEquals(400,bulb.getBulbWattage());
+		assertEquals(1000,bulb.getBulbWattage());
 	}
 
 }
